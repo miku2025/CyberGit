@@ -132,16 +132,6 @@ export const Layout: React.FC<LayoutProps> = ({
           </div>
           
           <div className="flex items-center gap-4">
-             <a
-               href="https://github.com/Amery2010/cybergit"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-primary/70 hover:text-primary transition-colors p-1"
-               onMouseEnter={() => audioService.playHover()}
-               aria-label="GitHub Repository"
-             >
-               <Github className="w-4 h-4 md:w-5 md:h-5" />
-             </a>
 
              {toggleMute && (
               <button
